@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
     mysql.vm.hostname = "ManuelSoltMysql"
     mysql.vm.network "private_network", ip: "192.168.33.11"
     mysql.vm.provision "shell", path: "Mysql.sh"
-    # Red publica para actualizar paquetes y descargar MariaDB
+    # Red publica para actualizar paquetes y descargar MariaDB, despues se comenta, se reinicia la maquina y no tiene salida a internet
     mysql.vm.network "public_network"
   end
 
