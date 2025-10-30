@@ -39,6 +39,7 @@ $(cat iaw-practica-lamp/db/database.sql)
 EOF
 
 echo "🚀 Reiniciando Apache..."
-systemctl restart apache2
 
+systemctl restart apache2
+ip route del default
 echo "✅ Servidor MySQL y PHPMyAdmin aprovisionado correctamente."
