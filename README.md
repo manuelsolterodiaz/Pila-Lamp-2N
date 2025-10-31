@@ -201,6 +201,7 @@ echo " Servidor MySQL y PHPMyAdmin aprovisionado correctamente."
 ## Capturas del resultado
 
 ### Máquina Apache - ManuelSoltApache
-![Apache funcionando](screenshot/Apache)
+![Apache funcionando](capturas/apache.png)
 ### Máquina MySql - ManuelSoltMysql
-
+![PHP+Apache funcionando](capturas/mysql.png)
+## Video de PHPMYADMIN en la carpeta capturas
